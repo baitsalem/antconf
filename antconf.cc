@@ -21,7 +21,7 @@
 //#define LOCAL_CONNECTIVITY
 //#define ANTCONF_LOCAL_REPAIR
 
-//pour l'acces a l'entète des agents de antconf
+//pour l'accès a l'entète des agents de antconf
 int hdr_antconf::offset_;
 
 
@@ -66,14 +66,14 @@ ANTCONF::command(int argc, const char*const* argv)
 			if(strncasecmp(argv[1], "start", 2) == 0) 
 			{
                               
-				//envoie periodique des agents 
+				//envoi periodique des agents 
 			        lttimer.handle((Event*) 0);
 
 				//timer pour la gestion des id des Agents qui passent par ce noeud
 				btimer.handle((Event*) 0);
 
 			//#ifndef ANTCONF_LINK_LAYER_DETECTION	
-				//pour maintenir la connectivitée locale en envoyant des messages hello		
+				//pour maintenir la connectivité locale en envoyant des messages hello		
 				htimer.handle((Event*) 0);
 
 				// purger la table des voisins
