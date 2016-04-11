@@ -1,3 +1,7 @@
+// authors:
+// AIT SALEM Boussad
+//  Riahla Amine
+
 #ifndef __antconf_phrtable_h__
 #define __antconf_phrtable_h__
 
