@@ -1,3 +1,7 @@
+// authors:
+// AIT SALEM Boussad
+//  Riahla Amine
+
 #include <antconf/antconf_phtable.h>
 /*
   La table de pheromone
